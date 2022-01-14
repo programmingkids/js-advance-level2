@@ -1,5 +1,4 @@
 // Mapの要素追加と取得
-
 // 空のMapの作成
 const map = new Map();
 

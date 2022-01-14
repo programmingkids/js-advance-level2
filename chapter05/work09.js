@@ -1,5 +1,4 @@
 // SetのforEachメソッド
-
 // 空のSetの作成
 const fruits = new Set();
 

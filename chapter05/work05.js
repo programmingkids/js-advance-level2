@@ -1,5 +1,4 @@
 // Mapのvaluesメソッド
-
 // 空のMapの作成
 const map = new Map();
 
