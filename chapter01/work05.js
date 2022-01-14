@@ -13,5 +13,5 @@ const city = 'New York';
 // 短縮記述でオブジェクトの作成
 const user = { name , age, hobby, city };
 
-// 関数の呼び出し
+// 関数の呼び出し　引数はオブジェクト
 showUser( user );
