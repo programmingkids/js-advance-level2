@@ -1,10 +1,16 @@
 // ブロックスコープ
-// ブロックスコープの変数
+// グローバルスコープの変数定義
+const name = "Bob";
+
+// グローバルスコープの変数呼び出し
+console.log(`Hello, ${name}`);
+
 {
+    // ブロックスコープの変数
     const name = "John";
+    // ブロックスコープの変数呼び出し
     console.log(`Hello, ${name}`);
 }
 
-// ブロックスコープの変数をスコープの外側から利用するとエラー
-// ReferenceError: name is not defined
+// グローバルスコープの変数呼び出し
 console.log(`Hello, ${name}`);
