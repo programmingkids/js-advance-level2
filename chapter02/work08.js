@@ -12,11 +12,11 @@ const person = {
 // sayNameメソッドはpersonオブジェクトに所属する
 // thisはpersonオブジェクト
 // Hello, Bob
-person.sayName('Hello');
+
 
 // person.sayNameをsay変数に代入する
-const say = person.sayName;
+
 
 // applyを利用してthisの値を指定する
 // Hello, Bob
-say.apply(person, ['Hello']);
+

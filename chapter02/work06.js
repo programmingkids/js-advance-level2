@@ -11,13 +11,13 @@ const person = {
 // sayNameメソッドはpersonオブジェクトに所属する
 // thisはpersonオブジェクト
 // Hello, Bob
-person.sayName('Hello');
+
 
 // person.sayNameをsay変数に代入する
-const say = person.sayName;
+
 
 // 代入したメソッドを関数として呼ぶ
 // このsay関数はどのオブジェクトにも所属していない
 // thisはundefinedとなるためエラー
 // Hello, undefined
-say('Hello');
+
